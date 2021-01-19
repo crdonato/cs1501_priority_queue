@@ -1,0 +1,26 @@
+
+Craig Donato (crd69)
+
+CS 1501 Project 3
+
+In this project i used the books code for MaxPQ.java and MinPQ.java with some modification so that
+it will work with the Apt class. I also use the books code for In.java, StdIn.java, and StdOut.java so
+that the program can read from a file or the terminal. Since i didnt modify the books code for insert
+and delete they are still at O(log n) and the delete min or max as well as min key for both max and min
+are constant time since when the functions are called it only pulls from its first index in the heap.
+
+I have also made my own campare methods for the books code to use inorder to compare the Apt class
+by rent, square footage and by city.
+
+AptTracker.java runs the program and needs the below files
+
+	Apt.java
+	AptCompare.java
+	AptRentCompare.java
+	AptSqftCompare.java
+	AptMaxPQ.java
+	AptMinPQ.java
+	In.java
+	StdIn.java
+	StdOut.java
+				
